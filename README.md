@@ -15,19 +15,19 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 ## Demostración de funciones y aplicaciones
 *Función 1: La pantalla principal muestra un botón llamado "ACTUALIZAR" que permite aplicar los cambios realizados en el menú, se muestra el menú de cambios realizado con ipywidgets, se muestra la escena principal con 2 cuadros de anotaciones correspondientes a los renderizados "IsoSurface", dentro de la escena se especifica el "TIMESTEP" actual y los valores mínimo y máximo de las variables indicadas por el usuario para los "IsoSurface".
 
-*Función 2: El NoteBook realiza una busqueda e incorporación de archivos ".nc", ".tms" y ".tiff" dentro del directorio en el que se encuentra alojado. La pestaña "ARCHIVOS" permite al usuario seleccionar uno de estos archivos para trabajar. Tambien se puede indicar un "TIMESTEP" especifico, y las 2 variables de tipo 3D para generar los 2 "IsoSurface".
+*Función 2: El NoteBook realiza una busqueda e incorporación de archivos ".nc", ".tms" y ".tiff", dentro del directorio en el que se encuentra alojado. La pestaña "ARCHIVOS" permite al usuario seleccionar uno de estos archivos para trabajar. Tambien se puede indicar un "TIMESTEP" especifico, y las 2 variables de tipo 3D para generar los 2 "IsoSurface".
 
 *Función 3: La pestaña "RENDERIZADOS" permite mostrar u ocultar cada uno de los 5 renderizados, los cuales se detallan a continuación.
 
--- Renderizado:
+-- Renderizado 1: "ImageRenderer" muestra un mapa geogrfico y georeferenciado correspondiente a las coordenadas del archivo netCDF seleccionado. El relieve es incorporado con una variable de altura llamada "HGT". La skin del mapa puede cambiarse seleccionando un archivo ".tiff" o ".tms" desde la pestaña "ARCHIVOS".
 
--- Renderizado:
+-- Renderizado 2: "IsoSurface" número 1 
 
--- Renderizado:
+-- Renderizado 3:
 
--- Renderizado:
+-- Renderizado 4:
 
--- Renderizado:
+-- Renderizado 5:
 
 *Función 4:
 
