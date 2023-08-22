@@ -21,15 +21,16 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 
 -- Renderizado 1: "ImageRenderer" muestra un mapa geogrfico y georeferenciado correspondiente a las coordenadas del archivo netCDF seleccionado. El relieve es incorporado con una variable de altura llamada "HGT". La skin del mapa puede cambiarse seleccionando un archivo ".tiff" o ".tms" desde la pestaña "ARCHIVOS".
 
--- Renderizado 2: "IsoSurface" número 1 
+-- Renderizado 2: "IsoSurface" número 1. Incorpora a la escena una variable 3D cuyos datos se muestran en el cuadro de anotaciones SUPERIOR.  
 
--- Renderizado 3:
+-- Renderizado 3: "IsoSurface" número 2. Incorpora a la escena una variable 3D cuyos datos se muestran en el cuadro de anotaciones INFERIOR.  
 
--- Renderizado 4:
+-- Renderizado 4: "Barbs" representa el flujo de viento usando flechas cuyas coordenadas son especificadas por las variables "U10" y "V10" en un plano dado por "X" y "Y", respectivamente, la altura al igual que con "ImageRenderer" es dada por "HGT", respetando así el relieve del mapa, y el color se muestra de acuerdo con la variable de temperatura "T2".
 
--- Renderizado 5:
+-- Renderizado 5: "Flow" muestra Líneas de Corriente en el espacio 3D usando "U", "V" y "W" para sus coordenadas, y una variable de color "T". 
 
-*Función 4:
+*Función 4: La pestaña "COLOR" permite elegir y cambiar la paleta de colores de cada uno de los 4 renderizados, exceptuando "ImageRenderer". Tambien se puede cambiar el color del fondo de la escena entre BLANCO y NEGRO. 
+De acuerdo con las variable seleccionadas para los "IsoSurface"
 
 *Función 5:
 
