@@ -13,6 +13,22 @@
 Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets, genera una interfaz gráfica que permite una interacción más intuitiva y amigable entre NCAR Vapor API y los usuarios. Sí requiere de una personalización más profunda deberá remitirse a la documentación de Vapor (https://ncar.github.io/VaporDocumentationWebsite/pythonAPIReference/classReference.html) con la cual podrá generar un renderizado más especifico y adecuado de acuerdo con sus requerimentos.
 
 ## Demostración de funciones y aplicaciones
+*Función 1: La pantalla principal muestra un botón llamado "ACTUALIZAR" que permite aplicar los cambios realizados en el menú, se muestra el menú de cambios realizado con ipywidgets, se muestra la escena principal 
+
+*Función 2:
+
+*Función 3:
+
+*Función 4:
+
+*Función 5:
+
+*Función 6:
+
+*Función 7:
+
+
+
 ## Acceso al Proyecto
 ## Tecnologías utilizadas
 ## Personas Contribuyentes
