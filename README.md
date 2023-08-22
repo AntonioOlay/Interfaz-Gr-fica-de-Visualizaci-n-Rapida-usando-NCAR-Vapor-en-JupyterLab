@@ -41,7 +41,12 @@ Existen 3 angulos de la camara que nos ayuda a observar de forma rapida el rende
 *Función 7: Pestaña "ANIMACION" ayuda a generar archivos multimedia de la escena actual. Pueden ser imagenes ".png" o videos ".MP4" ambos con la escena fija, que en el caso de las imagenes, se genera una por cada "TIMESTEP" y en el caso del video, se genera uno con duración de 30 segundos. Tambien hay una opción para ambos formatos donde la camara rota centrando siempre al renderizado. 
 Para usar esta pestaña primero se debe seleccionar el "Formato del archivo multimedia", dar click en el botón "ACTUALIZAR", el widget a la derecha actualizará sus opciones y ahí deberemos seleccionar el tipo de escena (rotando o estatica), y actualizar una ultima vez, generando el archivo de video o una sucesión de imagenes. 
 
-## Acceso al Proyecto
+## Acceso al Proyecto 
+Se requiere de un entorno Conda donde ya se haya instalado previamente NCAR Vapor (http://www.vapor.ucar.edu/pages/vaporPythonDownloads.html), así como todos los paquetes necesarios (adjunto un PDF indicando los pasos a seguir para crear este entorno desde la INSTALACIÓN DE MAMBAFORGE).
+
+Para usar este NoteBook es necesario descargarlo de este repositorio y guardarlo en un directorio de JupyterLab donde esten almacenados los archivo netCDF y ".tms" o ".tiff". Una vez guardado, abrimos este archivo ".ipynb", seleccionamos el Kernel correspondiente al entorno con NCAR Vapor, lo ejecutamos y automaticamente se mostrará la PANTALLA PRINCIPAL.
+
 ## Tecnologías utilizadas
+
 ## Personas Contribuyentes
 ## Personas Desarrolladoras del Proyecto
