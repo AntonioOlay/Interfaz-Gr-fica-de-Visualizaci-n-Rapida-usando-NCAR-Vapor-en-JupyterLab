@@ -61,3 +61,5 @@ Doc. Augustín Garcia
 
 ## Personas Desarrolladoras del Proyecto
 Miguel Olaya
+![octocat-1692736817031](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/4cac354d-dabc-465a-8c1f-71efd650bf24)
+
