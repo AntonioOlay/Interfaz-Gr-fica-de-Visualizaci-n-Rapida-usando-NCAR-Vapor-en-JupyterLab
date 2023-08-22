@@ -57,6 +57,7 @@ Para usar este NoteBook es necesario descargarlo de este repositorio y guardarlo
 
 ## Personas Contribuyentes
 Lic. en Informatica Pedro Cruz
+
 Doc. Augustín Garcia
 
 ## Personas Desarrolladoras del Proyecto
