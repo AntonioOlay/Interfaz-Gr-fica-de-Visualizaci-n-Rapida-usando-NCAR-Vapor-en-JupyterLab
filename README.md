@@ -34,7 +34,9 @@ De acuerdo con las variable seleccionadas para los "IsoSurface" se puede situar 
 
 *Función 5: La pestaña "OPACIDAD" cuenta con 4 widgets para controlar el nivel de los puntos de opacidad de ambos "IsoSurface" (8 widgets en total), estos puntos estan distribuidos uniformemente a lo largo de los datos de las variables seleccionadas. Cuando acercamos el nivel de opacidad de un punto al valor 1, el renderizado en esa parte de los datos se hará más visible, contrario a acercar el nivel al valor 0, donde se hará menos visible. 
 
-*Función 6: La pestaña "TRANSFORMACIÓN" 
+*Función 6: La pestaña "TRANSFORMACIÓN" permite ajustar la escala de la altura de todos los renderizados. Donde una escala cercana a cero no afecta la altura original, pero si se ingresa un numero cualquiera, la altura será multiplicada por la escala, pudiendo mostrar un relieve más agresivo. 
+El Zoom de la camará controla el acercamiento con respecto al renderizado, puede aumentarse (número positivo) o disminuirse (número negativo). 
+Existen 3 angulos de la camara que nos ayuda a observar de forma rapida el renderizado desde 3 puntos distintos, desde arriba, inclinado o muy inclinado (Aún en desarrollo, debido a que, los distintos archivos .nc y la longitud de sus coordenadas no permiten un control estandarizado de la cámara, forzando a utilizar coordenadas especificas para la camara por cada archivo con coordenadas distintas, como ejemplo, tenemos 2 archivos, uno perteneciente a la CDMX y el otro a la Republica Mexicana, las coordendas de la cámara diseñadas para el archivo de la CDMX no funcionan adecuadamente para el archivo de la Republica Mexicana, por lo que, en este ultimo no se incorpora la camara correctamente para mostrar los angulos deseados)
 
 *Función 7:
 
