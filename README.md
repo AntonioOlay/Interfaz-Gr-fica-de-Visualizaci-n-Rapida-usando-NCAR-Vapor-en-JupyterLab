@@ -38,9 +38,8 @@ De acuerdo con las variable seleccionadas para los "IsoSurface" se puede situar 
 El Zoom de la camará controla el acercamiento con respecto al renderizado, puede aumentarse (número positivo) o disminuirse (número negativo). 
 Existen 3 angulos de la camara que nos ayuda a observar de forma rapida el renderizado desde 3 puntos distintos, desde arriba, inclinado o muy inclinado (Aún en desarrollo, debido a que, los distintos archivos .nc y la longitud de sus coordenadas no permiten un control estandarizado de la cámara, forzando a utilizar coordenadas especificas para la camara por cada archivo con coordenadas distintas, como ejemplo, tenemos 2 archivos, uno perteneciente a la CDMX y el otro a la Republica Mexicana, las coordendas de la cámara diseñadas para el archivo de la CDMX no funcionan adecuadamente para el archivo de la Republica Mexicana, por lo que, en este ultimo no se incorpora la camara correctamente para mostrar los angulos deseados)
 
-*Función 7:
-
-
+*Función 7: Pestaña "ANIMACION" ayuda a generar archivos multimedia de la escena actual. Pueden ser imagenes ".png" o videos ".MP4" ambos con la escena fija, que en el caso de las imagenes, se genera una por cada "TIMESTEP" y en el caso del video, se genera uno con duración de 30 segundos. Tambien hay una opción para ambos formatos donde la camara rota centrando siempre al renderizado. 
+Para usar esta pestaña primero se debe seleccionar el "Formato del archivo multimedia", dar click en el botón "ACTUALIZAR", el widget a la derecha actualizará sus opciones y ahí deberemos seleccionar el tipo de escena (rotando o estatica), y actualizar una ultima vez, generando el archivo de video o una sucesión de imagenes. 
 
 ## Acceso al Proyecto
 ## Tecnologías utilizadas
