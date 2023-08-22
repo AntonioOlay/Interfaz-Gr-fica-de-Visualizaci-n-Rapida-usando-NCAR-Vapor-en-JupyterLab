@@ -30,11 +30,11 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 -- Renderizado 5: "Flow" muestra Líneas de Corriente en el espacio 3D usando "U", "V" y "W" para sus coordenadas, y una variable de color "T". 
 
 *Función 4: La pestaña "COLOR" permite elegir y cambiar la paleta de colores de cada uno de los 4 renderizados, exceptuando "ImageRenderer". Tambien se puede cambiar el color del fondo de la escena entre BLANCO y NEGRO. 
-De acuerdo con las variable seleccionadas para los "IsoSurface"
+De acuerdo con las variable seleccionadas para los "IsoSurface" se puede situar la capa de cada uno de estos, en un dato especifico de las variables seleccionadas.
 
-*Función 5:
+*Función 5: La pestaña "OPACIDAD" cuenta con 4 widgets para controlar el nivel de los puntos de opacidad de ambos "IsoSurface" (8 widgets en total), estos puntos estan distribuidos uniformemente a lo largo de los datos de las variables seleccionadas. Cuando acercamos el nivel de opacidad de un punto al valor 1, el renderizado en esa parte de los datos se hará más visible, contrario a acercar el nivel al valor 0, donde se hará menos visible. 
 
-*Función 6:
+*Función 6: La pestaña "TRANSFORMACIÓN" 
 
 *Función 7:
 
