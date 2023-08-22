@@ -47,6 +47,17 @@ Se requiere de un entorno Conda donde ya se haya instalado previamente NCAR Vapo
 Para usar este NoteBook es necesario descargarlo de este repositorio y guardarlo en un directorio de JupyterLab donde esten almacenados los archivo netCDF y ".tms" o ".tiff". Una vez guardado, abrimos este archivo ".ipynb", seleccionamos el Kernel correspondiente al entorno con NCAR Vapor, lo ejecutamos y automaticamente se mostrará la PANTALLA PRINCIPAL.
 
 ## Tecnologías utilizadas
+°Mambaforge
+°Python 
+°JupyterLab
+°IpyWidgets
+°NCAR Vapor
+°netCDF
+
 
 ## Personas Contribuyentes
+Lic. en Informatica Pedro Cruz
+Doc. Augustín Garcia
+
 ## Personas Desarrolladoras del Proyecto
+Miguel Olaya
