@@ -40,10 +40,12 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 *Función 4: La pestaña "COLOR" permite elegir y cambiar la paleta de colores de cada uno de los 4 renderizados, exceptuando "ImageRenderer". Tambien se puede cambiar el color del fondo de la escena entre BLANCO y NEGRO. 
 De acuerdo con las variable seleccionadas para los "IsoSurface" se puede situar la capa de cada uno de estos, en un dato especifico de las variables seleccionadas.
 
+![Funcion4](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/19c6cc94-8fc1-45e4-a486-b2bdc8d5b8bd)
 
 
 *Función 5: La pestaña "OPACIDAD" cuenta con 4 widgets para controlar el nivel de los puntos de opacidad de ambos "IsoSurface" (8 widgets en total), estos puntos estan distribuidos uniformemente a lo largo de los datos de las variables seleccionadas. Cuando acercamos el nivel de opacidad de un punto al valor 1, el renderizado en esa parte de los datos se hará más visible, contrario a acercar el nivel al valor 0, donde se hará menos visible. 
 
+![Funcion5](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/e49030b3-11e3-40ae-a1ab-38b8570ef3d8)
 
 
 *Función 6: La pestaña "TRANSFORMACIÓN" permite ajustar la escala de la altura de todos los renderizados. Donde una escala cercana a cero no afecta la altura original, pero si se ingresa un numero cualquiera, la altura será multiplicada por la escala, pudiendo mostrar un relieve más agresivo. 
