@@ -19,6 +19,7 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 
 *Función 2: El NoteBook realiza una busqueda e incorporación de archivos ".nc", ".tms" y ".tiff", dentro del directorio en el que se encuentra alojado. La pestaña "ARCHIVOS" permite al usuario seleccionar uno de estos archivos para trabajar. Tambien se puede indicar un "TIMESTEP" especifico, y las 2 variables de tipo 3D para generar los 2 "IsoSurface".
 
+![Funcion1](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/01d6d04c-8765-48c9-8739-6cd892aad295)
 
 
 *Función 3: La pestaña "RENDERIZADOS" permite mostrar u ocultar cada uno de los 5 renderizados, los cuales se detallan a continuación.
