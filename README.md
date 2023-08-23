@@ -24,6 +24,9 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 
 *Función 3: La pestaña "RENDERIZADOS" permite mostrar u ocultar cada uno de los 5 renderizados, los cuales se detallan a continuación.
 
+![Funcion3](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/2977bf98-d5c7-48ee-a07d-f98d50ff5a4b)
+
+
 -- Renderizado 1: "ImageRenderer" muestra un mapa geogrfico y georeferenciado correspondiente a las coordenadas del archivo netCDF seleccionado. El relieve es incorporado con una variable de altura llamada "HGT". La skin del mapa puede cambiarse seleccionando un archivo ".tiff" o ".tms" desde la pestaña "ARCHIVOS".
 
 -- Renderizado 2: "IsoSurface" número 1. Incorpora a la escena una variable 3D cuyos datos se muestran en el cuadro de anotaciones SUPERIOR.  
