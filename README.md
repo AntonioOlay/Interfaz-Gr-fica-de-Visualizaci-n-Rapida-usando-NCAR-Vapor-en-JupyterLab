@@ -21,11 +21,9 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 
 ![Funcion1](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/01d6d04c-8765-48c9-8739-6cd892aad295)
 
-
 *Función 3: La pestaña "RENDERIZADOS" permite mostrar u ocultar cada uno de los 5 renderizados, los cuales se detallan a continuación.
 
 ![Funcion3](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/2977bf98-d5c7-48ee-a07d-f98d50ff5a4b)
-
 
 -- Renderizado 1: "ImageRenderer" muestra un mapa geogrfico y georeferenciado correspondiente a las coordenadas del archivo netCDF seleccionado. El relieve es incorporado con una variable de altura llamada "HGT". La skin del mapa puede cambiarse seleccionando un archivo ".tiff" o ".tms" desde la pestaña "ARCHIVOS".
 
@@ -40,24 +38,23 @@ Notebook de JupyterLab desarrollado en lenguaje Python que por medio de Widgets,
 *Función 4: La pestaña "COLOR" permite elegir y cambiar la paleta de colores de cada uno de los 4 renderizados, exceptuando "ImageRenderer". Tambien se puede cambiar el color del fondo de la escena entre BLANCO y NEGRO. 
 De acuerdo con las variable seleccionadas para los "IsoSurface" se puede situar la capa de cada uno de estos, en un dato especifico de las variables seleccionadas.
 
-![Funcion4](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/19c6cc94-8fc1-45e4-a486-b2bdc8d5b8bd)
-
+![Funcion4](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/7cb3a625-20f5-432e-852e-044c83116a6d)
 
 *Función 5: La pestaña "OPACIDAD" cuenta con 4 widgets para controlar el nivel de los puntos de opacidad de ambos "IsoSurface" (8 widgets en total), estos puntos estan distribuidos uniformemente a lo largo de los datos de las variables seleccionadas. Cuando acercamos el nivel de opacidad de un punto al valor 1, el renderizado en esa parte de los datos se hará más visible, contrario a acercar el nivel al valor 0, donde se hará menos visible. 
 
-![Funcion5](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/e49030b3-11e3-40ae-a1ab-38b8570ef3d8)
+![Funcion5](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/1838696e-5e3b-4a22-8676-19690b8df031)
 
 
 *Función 6: La pestaña "TRANSFORMACIÓN" permite ajustar la escala de la altura de todos los renderizados. Donde una escala cercana a cero no afecta la altura original, pero si se ingresa un numero cualquiera, la altura será multiplicada por la escala, pudiendo mostrar un relieve más agresivo. 
 El Zoom de la camará controla el acercamiento con respecto al renderizado, puede aumentarse (número positivo) o disminuirse (número negativo). 
 Existen 3 angulos de la camara que nos ayuda a observar de forma rapida el renderizado desde 3 puntos distintos, desde arriba, inclinado o muy inclinado (Aún en desarrollo, debido a que, los distintos archivos .nc y la longitud de sus coordenadas no permiten un control estandarizado de la cámara, forzando a utilizar coordenadas especificas para la camara por cada archivo con coordenadas distintas, como ejemplo, tenemos 2 archivos, uno perteneciente a la CDMX y el otro a la Republica Mexicana, las coordendas de la cámara diseñadas para el archivo de la CDMX no funcionan adecuadamente para el archivo de la Republica Mexicana, por lo que, en este ultimo no se incorpora la camara correctamente para mostrar los angulos deseados)
 
-
+![Funcion6](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/e39464f1-c74f-4002-8fed-23d419b164e7)
 
 *Función 7: Pestaña "ANIMACION" ayuda a generar archivos multimedia de la escena actual. Pueden ser imagenes ".png" o videos ".MP4" ambos con la escena fija, que en el caso de las imagenes, se genera una por cada "TIMESTEP" y en el caso del video, se genera uno con duración de 30 segundos. Tambien hay una opción para ambos formatos donde la camara rota centrando siempre al renderizado. 
 Para usar esta pestaña primero se debe seleccionar el "Formato del archivo multimedia", dar click en el botón "ACTUALIZAR", el widget a la derecha actualizará sus opciones y ahí deberemos seleccionar el tipo de escena (rotando o estatica), y actualizar una ultima vez, generando el archivo de video o una sucesión de imagenes. 
 
-
+![Funcion7](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/cc1f0139-7e65-4d15-b646-bbad7a444398)
 
 # EJEMPLO DE ANIMACIÓN ESTATICA EN FORMATO DE VIDEO MP4
 https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/b5b687ee-ecc4-4a03-85d8-17bf22227a5b
