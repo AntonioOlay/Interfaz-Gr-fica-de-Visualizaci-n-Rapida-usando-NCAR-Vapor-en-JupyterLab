@@ -1,4 +1,4 @@
-<h1 align="center"> Interfaz Gráfica de Visualización Rapida usando NCAR Vapor en un entorno Conda dentro de JupyterLab </h1>
+<h1 align="center"> Interfaz Gráfica de Visualización Rapida usando NCAR Vapor en un entorno Conda dentro de JupyterLab 1.0.0 </h1>
 
 ![PortadaGitHub](https://github.com/AntonioOlay/Interfaz-Gr-fica-de-Visualizaci-n-Rapida-usando-NCAR-Vapor-en-JupyterLab/assets/138058637/516e59ad-6704-4a67-8f8a-b647aec67bbe)
 
